@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Src</title>
+</head>
+<body>
+    <h2>The src Attribute</h2>
+    <img src="images/Jalal.jpg" width="500" height="700">
+</body>
+</html>
+
+
+
+<!--
+
+project/
+├── index.html
+├── assets/
+│   ├── images/
+│   ├── css/
+│   └── js/
+└── pages/
+    └── about.html
+
+==========
+
+Example from pages/about.html
+To reach an image:
+
+<img src="../assets/images/photo.jpg">
+
+==========
+
+Example from index.html
+<img src="assets/images/photo.jpg">
+
+==========
+
+
+Quick mental cheat sheet
+
+| Situation           | Path                  |
+| ------------------- | --------------------- |
+| Same folder         | `image.jpg`           |
+| Inside folder       | `images/image.jpg`    |
+| One level up        | `../image.jpg`        |
+| Up then into folder | `../public/image.jpg` |
+| Two levels up       | `../../image.jpg`     |
+
+-->
